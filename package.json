@@ -1,6 +1,6 @@
 {
   "name": "no-inplace-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Effectivly making the Array#sort method pure while retaining the native implementation",
   "main": "no-inplace-sort.js",
   "scripts": {
