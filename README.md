@@ -1,5 +1,6 @@
 # no-inplace-sort
-Tiny Javascript module that replaces the `Array.prototype.sort` with an implementation that returns a new sorted array instead of modifying the input in place
+A tiny Javascript module that changes `Array.prototype.sort` to return the sorted array without changing the input array.
+Effectivly making the Array#sort method pure while retaining most of its performance.
 
 ```js
 require('no-inplace-sort')´;
