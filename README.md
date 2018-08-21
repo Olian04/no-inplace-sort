@@ -2,6 +2,8 @@
 A tiny Javascript module that changes `Array.prototype.sort` to return the sorted array without changing the input array.
 Effectivly making the Array#sort method pure while retaining most of its performance.
 
+__NPM:__ `npm i no-inplace-sort`
+
 ```js
 require('no-inplace-sort');
 
