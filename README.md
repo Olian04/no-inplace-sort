@@ -3,7 +3,7 @@ A tiny Javascript module that changes `Array.prototype.sort` to return the sorte
 Effectivly making the Array#sort method pure while retaining most of its performance.
 
 ```js
-require('no-inplace-sort')´;
+require('no-inplace-sort');
 
 const a = [2, 3, 1, 4];
 const b = a.sort();
