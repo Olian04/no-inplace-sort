@@ -19,3 +19,5 @@ Array.prototype.sort = (nativeInplaceSort => function(...args) {
   return [...arr.sort(...args)]; // Remove native sort
 })(Array.prototype.sort);
 ```
+
+Fiddle demo: https://jsfiddle.net/szynrjcv/40/
